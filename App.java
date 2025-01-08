@@ -14,8 +14,10 @@ public class App {
         // muestra la familia
         System.out.println("\nFamilia");
         System.out.println(fam.toString());
+        
 
         fam.add(luisa);
+        fam.add(new Persona("Frank de la Jungla", 48));
         System.out.println(fam.toString());
 
 
