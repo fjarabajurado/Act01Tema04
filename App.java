@@ -6,5 +6,11 @@ public class App {
 
         System.out.println(carmen.toString());
         System.out.println(luisa.toString());
+
+        Coche c1 = new Coche("AB-5256", 2020, 2000);
+        Coche c2 = new Coche("BC-6656", 2018, 2500);
+
+        System.out.println("Coche: " + c1.getMatricula() + " - " + c1.getCilindrada());
+        System.out.println("Coche: " + c2.getMatricula() + " - " + c2.getCilindrada());
     }
 }
