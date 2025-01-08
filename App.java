@@ -6,5 +6,8 @@ public class App {
 
         System.out.println(carmen.toString());
         System.out.println(luisa.toString());
+
+        System.out.println("Medida " + carmen.getNombre() + " = " + carmen.largoNombre());
+        System.out.println("Medida " + luisa.getNombre() + " = " + luisa.largoNombre());
     }
 }

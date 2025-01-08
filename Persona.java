@@ -27,6 +27,10 @@ public class Persona {
         salida = this.nombre + " - " + this.edad;
         return  salida;
     }
+
+    public int largoNombre(){
+        return  this.nombre.length();
+    }
     
 }
 
