@@ -7,7 +7,10 @@ public class OtraClase {
         b = 0;
     }
 
-    pubilc int getA(){
+    public int getA(){
         return  this.a;
+    }
+    public int getB(){
+        return  this.b;
     }
 }

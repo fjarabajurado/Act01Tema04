@@ -21,7 +21,9 @@ public class App {
         System.out.println(fam.toString());
 
         OtraClase mia = new OtraClase();
-        
+        mia.getA();
+        mia.getB();
+
 
 
     }
