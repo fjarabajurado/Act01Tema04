@@ -20,6 +20,9 @@ public class App {
         fam.add(new Persona("Frank de la Jungla", 48));
         System.out.println(fam.toString());
 
+        OtraClase mia = new OtraClase();
+        
+
 
     }
 }
